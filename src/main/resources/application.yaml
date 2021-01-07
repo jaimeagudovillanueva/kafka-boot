@@ -1,0 +1,12 @@
+server:
+  port: 9000
+kafka:
+  bootstrap-servers: localhost:9092
+general:
+  topic:
+    name: test-log
+    group.id: group_id
+user:
+  topic:
+    name: user-log
+    group.id: group_id
